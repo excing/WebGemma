@@ -1,0 +1,10 @@
+export { default as AIService } from './services/AIService.js';
+export { default as ChatStore } from './stores/ChatStore.js';
+export { default as ErrorBoundary } from './components/ErrorBoundary.svelte';
+export { default as LazyLoader } from './components/LazyLoader.svelte';
+export { default as LoadingSpinner } from './components/LoadingSpinner.svelte';
+export { default as LocalModelLoader } from './components/LocalModelLoader.svelte';
+export { default as ChatContextSettings } from './components/ChatContextSettings.svelte';
+export { default as AudioRecorder } from './components/AudioRecorder.svelte';
+export { default as AudioRecorderUtil } from './utils/audioRecorder.js';
+export type { Message, ModelConfig, ChatState, LocalModelFile, MediaPipePrompt, RecordingState } from './types/index.js';

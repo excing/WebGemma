@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#grad)" stroke="#1E40AF" stroke-width="2"/>
+  
+  <!-- AI brain icon -->
+  <g fill="white" stroke="white" stroke-width="1">
+    <!-- Brain outline -->
+    <path d="M30 35 C25 30, 25 25, 30 25 C35 20, 45 20, 50 25 C55 20, 65 20, 70 25 C75 25, 75 30, 70 35 C75 40, 75 50, 70 55 C75 60, 75 65, 70 70 C65 75, 55 75, 50 70 C45 75, 35 75, 30 70 C25 65, 25 60, 30 55 C25 50, 25 40, 30 35 Z"/>
+    
+    <!-- Neural connections -->
+    <circle cx="40" cy="40" r="2"/>
+    <circle cx="50" cy="35" r="2"/>
+    <circle cx="60" cy="40" r="2"/>
+    <circle cx="35" cy="50" r="2"/>
+    <circle cx="50" cy="50" r="2"/>
+    <circle cx="65" cy="50" r="2"/>
+    <circle cx="40" cy="60" r="2"/>
+    <circle cx="60" cy="60" r="2"/>
+    
+    <!-- Connection lines -->
+    <line x1="40" y1="40" x2="50" y2="35" stroke-width="1"/>
+    <line x1="50" y1="35" x2="60" y2="40" stroke-width="1"/>
+    <line x1="40" y1="40" x2="35" y2="50" stroke-width="1"/>
+    <line x1="50" y1="35" x2="50" y2="50" stroke-width="1"/>
+    <line x1="60" y1="40" x2="65" y2="50" stroke-width="1"/>
+    <line x1="35" y1="50" x2="40" y2="60" stroke-width="1"/>
+    <line x1="50" y1="50" x2="40" y2="60" stroke-width="1"/>
+    <line x1="50" y1="50" x2="60" y2="60" stroke-width="1"/>
+    <line x1="65" y1="50" x2="60" y2="60" stroke-width="1"/>
+  </g>
+  
+  <!-- Gemma text -->
+  <text x="50" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="8" font-weight="bold">AI</text>
+</svg>

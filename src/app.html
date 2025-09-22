@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+		<!-- Performance optimizations -->
+		<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+		<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
+		<!-- Default meta tags (will be overridden by page-specific ones) -->
+		<meta name="description" content="本地离线 AI 对话应用，使用 Google Gemma 模型，支持文本、图片和音频输入" />
+		<meta name="keywords" content="AI, Gemma, 本地, 离线, 对话, 聊天, 多模态, 人工智能" />
+		<meta name="author" content="Gemma AI 助手" />
+		<meta name="robots" content="index, follow" />
+
+		<!-- Open Graph -->
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Gemma AI 助手" />
+		<meta property="og:locale" content="zh_CN" />
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+
+		<!-- PWA -->
+		<meta name="theme-color" content="#3B82F6" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="apple-mobile-web-app-title" content="Gemma AI" />
+		<meta name="mobile-web-app-capable" content="yes" />
+
+		<!-- Security -->
+		<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+		<!-- <meta http-equiv="X-Frame-Options" content="DENY" /> -->
+		<meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover" class="antialiased">
+		<div style="display: contents">%sveltekit.body%</div>
+
+		<!-- Service Worker Registration -->
+		<!-- <script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('/sw.js')
+						.then(registration => {
+							console.log('SW registered: ', registration);
+						})
+						.catch(registrationError => {
+							console.log('SW registration failed: ', registrationError);
+						});
+				});
+			}
+		</script> -->
+	</body>
+</html>
