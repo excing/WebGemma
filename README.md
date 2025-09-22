@@ -205,6 +205,12 @@ npm run build
 # 部署 build/ 目录到静态服务器
 ```
 
+### GitHub Pages 部署
+
+See [Static site generation](https://svelte.dev/docs/kit/adapter-static#GitHub-Pages)
+
+直接提交 commit 到 GitHub 即可, 已实现自动部署.
+
 ### Docker 部署
 
 ```dockerfile
